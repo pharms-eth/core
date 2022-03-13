@@ -16,7 +16,7 @@ let package = Package(
             targets: ["SafariWalletCore"]),
     ],
     dependencies: [
-        .package(name: "MEWwalletKit", url: "https://github.com/MyEtherWallet/mew-wallet-ios-kit", .upToNextMajor(from: "1.4.13")),
+        .package(name: "MEWwalletKit", url: "https://github.com/pharms-eth/mew-wallet-ios-kit", branch: "main"),
         .package(name: "SocketIO", url: "https://github.com/socketio/socket.io-client-swift", .revision("a1ed825835a2d8c2555938e96557ccc05e4bebf3"))
     ],
     targets: [
